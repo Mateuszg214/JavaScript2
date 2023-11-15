@@ -1,0 +1,23 @@
+<html>
+<body>
+<div style="color:navy;font-size:33px;">
+<script language="JavaScript">
+var a_bycz=prompt("Podaj A=","");
+var b_bycz=prompt("Podaj B=","");
+
+var a=parseFloat(a_bycz);
+var b=parseFloat(b_bycz);
+
+p = a*a*a;
+d = 3*((a*a)*b);
+t = 3*(a*(b*b));
+c = b*b*b;
+
+suma = p + d + t + c;
+document.write("wczytane liczby A="+a+"B="+b+"<br>");
+document.write("Odpowiedz ("+a+"+"+b+")^3"+"="+suma+"<br>");
+document.write("("+a+" + "+b+")^3 = "+a+"^3 + 3*(("+a+")^2)*("+b+") + 3*("+a+")*(("+b+")^"+b+") + "+b+"^3 = "+p+" + "+d+" + "+t+" + "+c+" = "+suma);
+</script>
+</div>
+</body>
+</html>
